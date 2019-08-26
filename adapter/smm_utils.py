@@ -22,7 +22,7 @@ def get_moments(analysis_df, is_store=False):
     # the dictionary.
 
     info = analysis_df.copy().groupby("Period")["Wage"].describe().to_dict()
-    #print(analysis_df.copy()[analysis_df["period"]==1]["wages"])
+
     for period in sorted(analysis_df["Period"].unique().tolist()):
         #if pd.isnull(info["std"][period]):
         #    continue

@@ -8,11 +8,11 @@ estimation_draws: 500
 estimation_seed: 132
 estimation_tau: 500
 interpolation_points: -1
-n_periods: 2
+n_periods: 49
 n_types: 4
-simulation_agents: 1
+simulation_agents: 5000
 simulation_seed: 400
-solution_draws: 1
+solution_draws: 5000
 solution_seed: 456
 observables:
   afqt: 3

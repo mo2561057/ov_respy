@@ -65,14 +65,13 @@ class SimulationBasedEstimationCls:
 
 
         if is_valid:
-            print(stats_obs)
-            print(stats_sim)
+
             stats_diff = np.array(stats_obs) - np.array(stats_sim)
-            print(stats_diff)
+
             fval_intermed = np.dot(stats_diff, self.weighing_matrix)
-            print(fval_intermed)
+
             fval = float(np.dot(fval_intermed, stats_diff))
-            print(fval)
+
         else:
             fval = HUGE_INT
 
