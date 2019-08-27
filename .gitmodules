@@ -1,9 +1,8 @@
 [submodule "submodules/respy"]
 	path = submodules/respy
-	url = https://github.com/mo2561057/respy_fixed
+	url = https://github.com/OpenSourceEconomics/respy
 	branch = master
         
-[submodule "estimagic"]
+[submodule "submodules/estimagic"]
 	path = submodules/estimagic
-	url = https://github.com/OpenSourceEconomics/estimagic.git
-	branch = master
+	url = https://github.com/OpenSourceEconomics/estimagic
